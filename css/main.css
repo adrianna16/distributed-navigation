@@ -1,11 +1,11 @@
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-  font-family: sans-serif;
-  line-height: 1.5;
 }
 
 img {
@@ -13,7 +13,7 @@ img {
 }
 
 body {
-  margin: 0;
+  margin: auto;
   font-size: 1.125rem;
   background-color: #fff;
 }
@@ -46,4 +46,12 @@ nav a {
 
 header img {
   order: -1;
+}
+
+header h1 {
+  margin: .5rem;
+}
+
+header p {
+  font-style: italic;
 }
