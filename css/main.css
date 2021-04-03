@@ -13,7 +13,7 @@ img {
 }
 
 body {
-  margin: auto;
+  margin: 0;
   font-size: 1.125rem;
   background-color: #fff;
 }
@@ -30,9 +30,8 @@ header {
 
 nav ul {
   list-style-type: none;
-  Padding: 0 1rem;
+  padding: 0 1rem;
   display: flex;
-
 }
 
 nav ul li {
@@ -54,4 +53,5 @@ header h1 {
 
 header p {
   font-style: italic;
+  margin: auto;
 }
