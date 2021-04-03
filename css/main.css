@@ -43,6 +43,10 @@ nav a {
   color: #0074d9;
 }
 
+nav a:hover {
+  color: black;
+}
+
 header img {
   order: -1;
 }
